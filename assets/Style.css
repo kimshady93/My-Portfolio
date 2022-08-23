@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 200;
+}
+
+.container {
+    width: 90%;
+    margin: 20px;
+    position: absolute;
+    width: auto;
+}
+
+.bg-img {
+    background-image:url(images/background.png);
+    min-height:350px;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+}
+
+.logo {
+    float:left;
+}
+
+nav {
+    float:right;
+}
