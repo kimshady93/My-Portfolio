@@ -1,29 +1,41 @@
-body {
+* {
     margin: 0;
+    padding:0;
     font-family:'Courier New', Courier, monospace;
     font-weight: 200;
+}
+
+header {
+    background-color:white;
 }
 
 .container {
     width: 90%;
     margin: 20px;
-    position: absolute;
+    position:relative;
     width: auto;
 }
 
-.bg-img {
-    background-image:url(images/background.png);
-    min-height:350px;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    position:relative;
-}
 
 .logo {
     float:left;
+    padding: 15px 0;
+    max-height: 100px;
 }
 
-nav {
-    float:right;
+.topnav-right * {
+    float: right;
+    display: inline;
+    margin: 20px 45px;
+}
+
+.topnav-right ul li a {
+    font-size: large;
+    font: black;
+    text-decoration: none;
+}
+
+.quality-time {
+
+    padding:300px 100px 100px 100px
 }
