@@ -5,17 +5,6 @@
     font-weight: 200;
 }
 
-header {
-    background-color:white;
-}
-
-.container {
-    width: 90%;
-    margin: 20px;
-    position:relative;
-    width: auto;
-}
-
 
 .hero {
     background-image: url("../Assets/Images/hero.bg.png");
@@ -28,7 +17,7 @@ header {
 .topnav-right * {
     float: right;
     display: inline;
-    margin: 20px 45px;
+    padding: 0px 25px 0px 25px;
 }
 
 .topnav-right ul li a {
