@@ -3,15 +3,13 @@
 * {
     margin: 0;
     padding:0;
-    font-family:'Courier New', Courier, monospace;
     font-weight: 300;
 }
-
 
 .hero {
     background-image: url("../Assets/Images/hero.bg.png");
     padding: 60px;
-    height: 700px;
+    height: 800px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -19,14 +17,14 @@
 
 .topnav-right * {
     float: right;
-    display: inline;
+    display: inline-flex;
     padding: 0px 25px 100px;
 }
 
-.topnav-right ul li a, .kimberly-photo h1 {
+.topnav-right ul li a {
     font-size:x-large;
     text-decoration: none;
-    font-family: "Bungee Shade", serif;
+    font-family: "Bungee Shade", cursive;
 }
 
 .container text-center {
@@ -54,30 +52,84 @@
     width: 250px;
     border-radius: 50%;
     border-style: solid;
-    border-width: 2px;
-    border-color: #ffdb58;
-    z-index: -1;
+    border-width: 8px;
+    border-color: #e7bc22;
     text-align: center;
-
 }
-
-.kimberly-photo h1 {
-    padding-top: 100px;
-    opacity: 0;
-
-}
-
-.kimberly-photo h1:hover {
-    opacity: 100;
-}
-
-.kimberly-photo:hover{
-    background-image: linear-gradient(90deg,#00c0ff 0%, #ffcf00 49%, #fc4f4f 80%, #00c0ff 100%);
-
-}
-
 
 .quality-time {
 
-    padding:300px 100px 100px 100px
+    padding:100px 500px 250px;
+}
+
+.my-work {
+ background-image: url(../Assets/Images/car.png);
+ height: 910px;
+ background-position: center;
+ background-size: cover;
+ position: relative;
+ 
+}
+
+.my-work h1 {
+    font-family: "Bungee", cursive;
+    font-size: xx-large;
+    color:#ffffff;
+    padding: 0px 120px 25px;
+
+}
+
+.about-me {
+    background-image: url(../Assets/Images/wavy.png);
+    height: 910px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   }
+
+   .about-me h1 {
+    font-family: "Bungee Shade", cursive;
+    font-size: xx-large;
+    padding: 100px 410px 50px;
+   }
+
+   .about-me p {
+    padding: 0px 300px 0px;
+    font-size: x-large;
+    font-family: "Bungee", cursive;
+   }
+
+.footer {
+    font-family: "Bungee", cursive;
+    background-color: #e7bc22;
+}
+
+.footer-content {
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: middle;
+    padding: 25px 15px
+}
+.footer h1 {
+    font-size: xx-large;
+    display: inline;
+    padding-left: 50px;;
+}
+
+.footer ul {
+    float:right;
+    display: inline;
+}
+
+.footer ul li {
+    justify-content: space-around;
+    display: inline;
+}
+
+.footer ul li a {
+    font-size:x-large;
+    text-decoration: none;
+    font-family: "Bungee Shade", cursive;
+    justify-content: space-around;
+    margin: 0px 50px;
 }
